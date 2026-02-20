@@ -21,5 +21,15 @@ public class PlayerControllerExam02 : MonoBehaviour
     void Update()
     {
         verticalInput = moveAction.ReadValue<Vector2>().y;
+
+        transform.Translate(Time.deltaTime * speed * verticalInput * Vector3.left);
+        transform.position = new Vector3(transform.position.x, transform.position.y, Mathf.Clamp(transform.position.z, -zRange, zRange));
+        
+        if (shootAction.triggered) 
+        {
+            Instantiate(projectilePrefab, transform.position, transform.rotation);
+        }
+
+
     }
 }
