@@ -10,7 +10,12 @@ public class PlayerControllerExam05 : MonoBehaviour
 
     // Exam 05 ...
     public int maxBulletCount = 10;
+    public int currentBullet;
+
     public float bulletRegenerateCooldown = 1f;
+    private bool onCooldown = false;
+    private float cooldownEnd;
+
     // ...
 
     private float horizontalInput;
@@ -23,9 +28,15 @@ public class PlayerControllerExam05 : MonoBehaviour
         shootAction = InputSystem.actions.FindAction("Shoot");
     }
 
+    private void Start()
+    {
+        currentBullet = maxBulletCount;
+    }
+
     // Update is called once per frame
     void Update()
     {
+        var t = Time.time;
         horizontalInput = moveAction.ReadValue<Vector2>().x;
         transform.Translate(horizontalInput * speed * Time.deltaTime * Vector3.right);
 
@@ -40,7 +51,26 @@ public class PlayerControllerExam05 : MonoBehaviour
 
         if (shootAction.triggered)
         {
-            Instantiate(projectilePrefab, transform.position, transform.rotation);
+            if (currentBullet <= 0)
+            {
+                if (!onCooldown) 
+                {
+                    Debug.Log("bullet empty | restore in " + bulletRegenerateCooldown + " sec");
+                    onCooldown = true;
+                    cooldownEnd = t + bulletRegenerateCooldown;
+                }
+                else if (onCooldown && t >= cooldownEnd) 
+                {
+                    Debug.Log("restore bullet");
+                    currentBullet = maxBulletCount;
+                    onCooldown = false;
+                }
+            }
+            else 
+            {
+                Instantiate(projectilePrefab, transform.position, transform.rotation);
+                currentBullet--;
+            }
         }
     }
 }
