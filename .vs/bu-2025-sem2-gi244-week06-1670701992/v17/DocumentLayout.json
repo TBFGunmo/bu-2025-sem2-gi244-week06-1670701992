@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\1670701992_arsarsiri\\quiz_2\\bu-2025-sem2-gi244-week06-1670701992\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3545C90B-0165-34FF-115E-791BD915EE49}|Assembly-CSharp.csproj|d:\\1670701992_arsarsiri\\quiz_2\\bu-2025-sem2-gi244-week06-1670701992\\assets\\scripts\\exam\\cameracontrolexam06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3545C90B-0165-34FF-115E-791BD915EE49}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exam\\cameracontrolexam06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3545C90B-0165-34FF-115E-791BD915EE49}|Assembly-CSharp.csproj|d:\\1670701992_arsarsiri\\quiz_2\\bu-2025-sem2-gi244-week06-1670701992\\assets\\scripts\\exam\\playercontrollerexam05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3545C90B-0165-34FF-115E-791BD915EE49}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exam\\playercontrollerexam05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3545C90B-0165-34FF-115E-791BD915EE49}|Assembly-CSharp.csproj|d:\\1670701992_arsarsiri\\quiz_2\\bu-2025-sem2-gi244-week06-1670701992\\assets\\scripts\\exam\\playercontrollerexam03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3545C90B-0165-34FF-115E-791BD915EE49}|Assembly-CSharp.csproj|D:\\1670701992_arsarsiri\\quiz_2\\bu-2025-sem2-gi244-week06-1670701992\\assets\\scripts\\exam\\playercontrollerexam03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3545C90B-0165-34FF-115E-791BD915EE49}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exam\\playercontrollerexam03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerControllerExam03.cs",
               "DocumentMoniker": "D:\\1670701992_arsarsiri\\quiz_2\\bu-2025-sem2-gi244-week06-1670701992\\Assets\\Scripts\\Exam\\PlayerControllerExam03.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Exam\\PlayerControllerExam03.cs",
@@ -43,12 +47,24 @@
               "ViewState": "AgIAACIAAAAAAAAAAADwvxoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T02:43:45.462Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CameraControlExam06.cs",
+              "DocumentMoniker": "D:\\1670701992_arsarsiri\\quiz_2\\bu-2025-sem2-gi244-week06-1670701992\\Assets\\Scripts\\Exam\\CameraControlExam06.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Exam\\CameraControlExam06.cs",
+              "ToolTip": "D:\\1670701992_arsarsiri\\quiz_2\\bu-2025-sem2-gi244-week06-1670701992\\Assets\\Scripts\\Exam\\CameraControlExam06.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Exam\\CameraControlExam06.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T03:19:55.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerControllerExam05.cs",
               "DocumentMoniker": "D:\\1670701992_arsarsiri\\quiz_2\\bu-2025-sem2-gi244-week06-1670701992\\Assets\\Scripts\\Exam\\PlayerControllerExam05.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Exam\\PlayerControllerExam05.cs",
@@ -61,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WaveSpawnManagerExam04.cs",
               "DocumentMoniker": "D:\\1670701992_arsarsiri\\quiz_2\\bu-2025-sem2-gi244-week06-1670701992\\Assets\\Scripts\\Exam\\WaveSpawnManagerExam04.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Exam\\WaveSpawnManagerExam04.cs",
@@ -73,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerControllerExam02.cs",
               "DocumentMoniker": "D:\\1670701992_arsarsiri\\quiz_2\\bu-2025-sem2-gi244-week06-1670701992\\Assets\\Scripts\\Exam\\PlayerControllerExam02.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Exam\\PlayerControllerExam02.cs",
@@ -85,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "WaveController.cs",
               "DocumentMoniker": "D:\\1670701992_arsarsiri\\quiz_2\\bu-2025-sem2-gi244-week06-1670701992\\Assets\\Scripts\\WaveController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WaveController.cs",
